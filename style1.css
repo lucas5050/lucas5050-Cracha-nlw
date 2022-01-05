@@ -1,0 +1,158 @@
+*{
+
+  margin: 0;
+
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+}
+  html {
+    font-family: 50%;
+  }
+
+  body {
+      height: 100%;
+        
+  }
+
+  body {
+       display: grid;
+       place-items: center;
+
+       background: rgba(0, 0, 0, 0.897);
+
+   }
+
+
+   main {
+    background: url(imagens/retangle.svg) ;
+
+
+    width: 358px;  
+    height: 540px;
+
+
+   }
+
+   .container {
+     max-width: 1200px;
+     height: auto;
+     width: auto;
+
+     text-align: center;
+
+   }
+
+   .degradê1 {
+    margin-top: -20rem;
+    margin-left: -12rem;
+
+    position: absolute;
+   }
+
+   .degradê2 {
+    margin-top: -20rem;
+    margin-left: -37rem;
+
+    position: absolute;
+   }
+
+   .avatar {
+    top: 1.20rem;
+    width: 10rem;
+    margin: 2.5rem auto 0;
+
+    position: relative;
+
+   }
+
+    .avatar span {
+     position: absolute;
+     top: -15px;
+     z-index: 1;
+
+   }
+
+   .avatar > img {
+    width: 10rem;
+    height: 11.5rem;
+    object-fit: cover;
+
+    clip-path:  polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+
+   }
+
+   .github {
+     margin-left: 8rem;
+
+   }
+
+   .mask {
+     margin-top: -24.5rem;
+
+   }
+
+   .faixa {
+      margin-top: -42rem;
+      margin-left: 9rem;
+
+   }
+
+   .quebra {
+     margin-left: 8.50rem;
+
+
+   }
+
+
+   h1{
+       font-size: 1.4rem;
+
+       margin-top: 2rem;
+       margin-left: 6rem;
+       margin-right: 5rem;
+
+       color: rgb(255, 255, 255);
+
+   }
+
+   a {
+       color: rgb(230, 236, 236);
+       text-decoration: none;
+
+       margin-top: 1rem;
+
+       /* display: flex; */
+       gap: 0.75rem;
+
+       justify-content: center;
+       align-items: center;
+   }
+
+   p {
+
+    font-size: 1.15rem;
+
+    margin-top: 2rem;
+   
+    color: rgb(230, 236, 236);
+    
+    text-align: center;
+    justify-content: center;
+    
+   }
+
+   ul {
+     margin-top: 6rem;
+    
+
+     list-style: none;
+     padding: 0;
+
+     display: flex;
+     gap: 0.5rem;
+
+     justify-content: center;
+
+   }
+
