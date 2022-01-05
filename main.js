@@ -12,7 +12,7 @@ const Links_Social_Media = {
       
       li.children[0].href = `https://${social}.com/${Links_Social_Media[social]}`         
       
-      // User_Name.textContent = 'Lucas Pascoal de Lima'
+      User_Name.textContent = 'Lucas Pascoal de Lima'
     }
 }
 
